@@ -5,6 +5,15 @@ public class Buku211 {
     public int stok;
     public int harga;
 
+    public Buku211() {
+        judul = "Today Ends Tomorow comes";
+        pengarang = "Denanda putri";
+        halaman = 198;
+        stok = 13;
+        harga = 71000;
+
+    }
+
     public Buku211(String judul, String pengarang, int halaman, int stok, int harga) {
         this.judul = judul;
         this.pengarang = pengarang;
